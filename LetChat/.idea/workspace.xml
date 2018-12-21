@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26f6f5e5-0bea-4001-84a7-edd742058d73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LetChatClient/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ServerInitializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServerInitializerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Constant/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Storage/RocksDBStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Storage/RocksDBStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Storage/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Storage/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/letchat.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/Authentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/ServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/ServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-plugins/protoc-3.6.1-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/protoc-plugins/protoc-gen-grpc-java-1.4.0-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AuthenticationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AuthenticationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NettyServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NettyServerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ServerHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ServerHandlerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ServerInitializerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ServerInitializerTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ServerInitializerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/src/main/java/ChatGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/src/main/java/ChatGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ChatGUI.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/ClientInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/ClientInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/Constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/Constant/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/CreateChannel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/JoinChannel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/Login.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ChannelOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ChannelOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequestOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequestOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponseOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponseOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$User$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$User$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$User$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$UserOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos$UserOrBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/letchat/proto/LetChatProtos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LetChatClient/target/classes/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LetChatClient/target/generated-sources/protobuf/java/letchat/proto/LetChatProtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid1105.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid15349.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid2039.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid21872.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid22213.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid22679.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid23395.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/hs_err_pid3298.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/java/Constant/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/java/Storage/RocksDBStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/java/Storage/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/java/server/Authentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/java/server/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/java/server/ServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/java/server/ServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/main/proto/letchat.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/test/java/AuthenticationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/test/java/NettyServerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/test/java/ServerHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/src/test/java/ServerInitializerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/Constant/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/Storage/RocksDBStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/Storage/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Channel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Channel$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$ChannelOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageRequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageResponse$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$MessageResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Request$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Request$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$RequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$RequestType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$RequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Response$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Response$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$ResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$ResponseType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$ResponseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$User$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$User$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos$UserOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/letchat/proto/LetChatProtos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/server/Authentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/server/NettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/server/ServerHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/server/ServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/classes/server/ServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/generated-sources/protobuf/java/letchat/proto/LetChatProtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-plugins/protoc-3.6.1-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/protoc-plugins/protoc-gen-grpc-java-1.4.0-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/test-classes/AuthenticationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/test-classes/NettyServerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/test-classes/ServerHandlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/test-classes/ServerInitializerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/test-classes/ServerInitializerTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChat/target/test-classes/ServerInitializerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/ChatGUI.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/ChatGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/ClientInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/Constant/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/CreateChannel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/CreateChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/JoinChannel.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/JoinChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/Login.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/letchat/proto/LetChatProtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/src/main/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ChatGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ClientHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/ClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/Constant/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/CreateChannel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/CreateChannel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/CreateChannel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/CreateChannel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/CreateChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/JoinChannel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/JoinChannel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/JoinChannel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/JoinChannel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/JoinChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Channel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Channel$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$ChannelOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageRequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageResponse$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$MessageResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Request$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Request$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$RequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$RequestType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$RequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Response$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Response$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$ResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$ResponseType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$ResponseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$User$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$User$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat$UserOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/LetChat/Letchat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/Login$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/Login$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/client/ClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$ChannelOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageRequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$MessageResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$RequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$ResponseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$User$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$User$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos$UserOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchat/proto/LetChatProtos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/letchatclient.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/generated-sources/protobuf/java/letchat/proto/LetChatProtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-dependencies/b930c81541e8c46aa4f269023fc19c5f/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-plugins/protoc-3.6.1-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LetChatClient/target/protoc-plugins/protoc-gen-grpc-java-1.4.0-linux-x86_64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/DemoLoggin/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/DemoLoggin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/DemoLoggin/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/DemoLoggin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/DemoLoggin/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/DemoLoggin/target/classes/DemoLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/DemoLoggin/target/classes/Main.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2055364681">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="java" value="20335" />
+          <entry key="proto" value="1904" />
+          <entry key="xml" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="20335" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PROTO" value="1904" />
+          <entry key="XML" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="java" value="86" />
+          <entry key="proto" value="18" />
+          <entry key="xml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="86" />
+          <entry key="PROTO" value="18" />
+          <entry key="XML" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2011393977">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="proto" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="368387903">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LetChat" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="511" column="61" selection-start-line="511" selection-start-column="61" selection-end-line="511" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/letchat.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/Authentication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/NettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="38" column="50" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="38" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ServerInitializerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getDefau</find>
+      <find>final_id</find>
+      <find>loadUserChannels</find>
+      <find>System.out</find>
+      <find>channels</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>total_msg_id</replace>
+      <replace>loadUserChannelsFromDB</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/protobuf/request/proto.java" />
+        <option value="$PROJECT_DIR$/src/main/protoc/request.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/client/ClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/response.proto" />
+        <option value="$PROJECT_DIR$/src/main/proto/request.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/client/clientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/NettyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Constant/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Storage/RockDBStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Storage/Storage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Storage/RocksDBStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/serverInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/test.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/letchat.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/server/Authentication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/AuthenticationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ServerHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NettyServerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/ServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ServerInitializerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/ServerHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LetChat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="998" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LetChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LetChat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LetChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LetChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LetChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LetChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LetChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LetChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LetChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LetChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LetChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LetChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LetChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LetChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541239465389" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LetChatClient" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/client" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NettyServer">
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.NettyClient" />
+      <module name="LetChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.NettyServer" />
+      <module name="LetChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.test" />
+      <module name="LetChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LetChat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthenticationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="LetChat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NettyServerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerInitializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LetChat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServerInitializerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.NettyServerTest" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="JUnit.AuthenticationTest" />
+      <item itemvalue="JUnit.ServerInitializerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="JUnit.ServerInitializerTest" />
+        <item itemvalue="JUnit.AuthenticationTest" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.NettyClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26f6f5e5-0bea-4001-84a7-edd742058d73" name="Default Changelist" comment="" />
+      <created>1536046137763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536046137763</updated>
+      <workItem from="1543573005811" duration="1031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 20m 15s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 22m 31s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 22m 40s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest_testChannelInitializer - 2018.09.13 at 22h 30m 18s.xml">
+      <configuration name="ServerInitializerTest.testChannelInitializer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 30m 51s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 31m 18s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 31m 35s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 32m 00s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 33m 20s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerInitializerTest - 2018.09.13 at 22h 33m 52s.xml">
+      <configuration name="ServerInitializerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1031000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1017" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756888" visible="true" weight="0.16488793" />
+      <window_info id="Structure" order="1" sideWeight="0.5024311" side_tool="true" weight="0.2950907" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5024311" side_tool="true" weight="0.2950907" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37126437" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39908257" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2229885" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32879817" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" side_tool="true" weight="0.32977587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.15635005" />
+      <window_info id="Structure" order="1" sideWeight="0.5008104" side_tool="true" weight="0.11419424" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2924312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22362386" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32912844" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.proto" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/request/proto.java" />
+    <entry file="file://$PROJECT_DIR$/target/classes/request.proto" />
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/letchat/proto/SignUpRequest.java" />
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/letchat/proto/Request.java" />
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/letchat/proto/LetChatRequestProtos.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientInitializer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelOption.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/response.proto" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/AbstractChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/NettyClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9781" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/clientInitializer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Storage/RocksDBStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/letchat/proto/LetChatProtos.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/test.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/handler/codec/MessageToMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AuthenticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ServerHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NettyServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ServerInitializerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/letchat.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="38" column="50" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="511" column="61" selection-start-line="511" selection-start-column="61" selection-end-line="511" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LetChat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

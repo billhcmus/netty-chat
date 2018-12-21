@@ -1,0 +1,76 @@
+syntax = "proto3";
+package letchat.proto;
+option java_outer_classname = "LetChatProtos";
+
+// Request
+enum RequestType {
+    LOGIN = 0;
+    SIGNUP = 1;
+    LOGOUT = 2;
+    SENDMESSAGE = 3;
+    CREATECHANNEL = 4;
+    JOINCHANNEL = 5;
+    GETCHANNELS = 6;
+    GETUSERS = 7;
+    GETMESSAGES = 8;
+    GETCHANNEL_MESSAGE = 9;
+}
+
+message User {
+    string username = 1;
+    string password = 2;
+}
+
+message Channel {
+    string name = 1;
+}
+
+message MessageRequest {
+    string receiver = 1;
+    string message = 2;
+
+}
+
+message Request {
+    string token = 1;
+    RequestType type = 2;
+    User user = 3;
+    Channel channel = 4;
+    MessageRequest message = 5;
+}
+
+// Response
+enum ResponseType {
+    SUCCESS = 0;
+    FAILURE = 1;
+    RECEIVE_MESSAGE = 2;
+    UPDATE = 3;
+    CREATECHANNEL_SUCCESS = 4;
+    CREATECHANNEL_FAIL = 5;
+    JOINCHANNEL_SUCCESS = 6;
+    JOINCHANNEL_FAIL = 7;
+    GETCHANNEL_SUCCESS = 8;
+    GETCHANNEL_FAIL = 9;
+    GETUSERS_SUCCESS = 10;
+    GETUSERS_FAIL = 11;
+    SIGNUP_SUCCESS = 12;
+    SIGNUP_FAIL = 13;
+    GETMESSAGE_COMPLETE = 14;
+    GETCHANNEL_MESSAGE_COMPLETE = 15;
+    AUTH_FAIL = 16;
+}
+
+message MessageResponse {
+    string from = 1;
+    string message = 2;
+    string channelName = 3;
+
+}
+
+message Response {
+    ResponseType type = 1;
+    MessageResponse message = 2;
+    repeated string users = 3;
+    repeated string channels = 4;
+}
+
